@@ -1,0 +1,58 @@
+.how-it-works-section {
+  text-align: center;
+  padding: 20px 20px;
+
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  flex: 1;
+  min-width: 250px;
+  background-color: white;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.step-icon {
+  font-size: 60px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.step-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom:10px;
+}
+
+.step-description {
+  font-size: 16px;
+  color: #555;
+}
